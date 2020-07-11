@@ -1,0 +1,442 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us Google Map | Prabuddha</title>
+        <link rel="profile" href="xfn\11.html">
+        <link rel="stylesheet" type="text/css" media="all" href="wp-content\themes\prabuddha\style.css">
+        <link href="wp-content\themes\prabuddha\css\style.css" rel="stylesheet" type="text/css">
+        <link rel="pingback" href="xmlrpc.txt">
+
+        <link rel="stylesheet" href="./wp-content/themes/prabuddha/css/themes/light/light.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./wp-content/themes/prabuddha/css/themes/dark/dark.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="wp-content\themes\prabuddha\css\themes\bar\bar.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="wp-content\themes\prabuddha\css\nivo-slider.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./wp-content/themes/prabuddha/css/css/style_banner.css" type="text/css" media="screen">
+
+        <script type="text/javascript" src="ajax\libs\jquery\1.4.1\jquery.min.js"></script>
+        <script type="text/javascript" src="wp-content\themes\prabuddha\js\script.js"></script>    
+
+        <script type="text/javascript" src="wp-content\themes\prabuddha\js\jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="wp-content\themes\prabuddha\js\jquery.nivo.slider.js"></script>
+
+
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider();
+            
+            });
+        
+            function imageClicked(img) {
+                document.forms["searchform"].submit();
+            }
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {	
+	
+                $('#nav li').hover(
+                function () {
+                    //show its submenu
+                    $('ul', this).slideDown(100);
+
+                }, 
+                function () {
+                    //hide its submenu
+                    $('ul', this).slideUp(100);			
+                }
+            );
+	
+            });
+        </script>
+
+<style>
+/* * {box-sizing: border-box}  
+body {font-family: Verdana, sans-serif; margin:0}  **/
+img {vertical-align: middle;}
+.mySlides {display: none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function showSlidesStart(){
+	setTimeout(showSlidesStart,3000)
+	plusSlides(1);	
+}
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+        <link rel="alternate" type="application/rss+xml" title="Prabuddha &raquo; Feed" href="index.xml?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="Prabuddha &raquo; Comments Feed" href="./?feed=comments-rss2">
+<link rel="alternate" type="application/rss+xml" title="Prabuddha &raquo; Contact Us Google Map Comments Feed" href="index-12.xml?feed=rss2&#038;page_id=396">
+<link rel='stylesheet' id='contact-form-7-css' href='wp-content\plugins\contact-form-7\includes\css\styles.css?ver=3.3.1' type='text/css' media='all'>
+<link rel='stylesheet' id='page-list-style-css' href='wp-content\plugins\page-list\css\page-list.css?ver=4.0' type='text/css' media='all'>
+<script type='text/javascript' src='wp-includes\js\comment-reply.js?ver=3.4.2'></script>
+<script type='text/javascript' src='wp-includes\js\jquery\jquery.js?ver=1.7.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.xml?rsd">
+<link rel='prev' title='Sitemap' href='index-8.htm?page_id=135'>
+<link rel='next' title='Prabuddha Solar Services' href='index-12.htm?page_id=546'>
+<meta name="generator" content="WordPress 3.4.2">
+<link rel='canonical' href='index-11.htm?page_id=396'>
+    </head>
+    <body onload="setTimeout(showSlidesStart,5000);">
+        <div class="main">
+            <div class="header">
+                <div class="header_top">
+                    <div class="logo"><a href="index.htm">
+                            <img src="wp-content\themes\prabuddha\images\logo.png" title="Home" alt="img"></a></div>
+                    <div class="header_top_right">
+                    <span style=" float: right; margin-right: 5px; margin-top: -39px;">
+			                          
+                    </span>             
+                        <div class="in_put"> 
+                            <form action="./" name="searchform" id="searchform" method="get">
+                                <input type="text" name="s" class="header_input">
+                                <div class="search_icon">
+                                    <input type="image" src="wp-content\themes\prabuddha\images\search_icon.png" name="submit" onclick="imageClicked(this)">
+
+                                </div>                                  
+                            </form> 
+
+                        </div>
+
+                        <div class="home_icon"><a href="index.htm"><img src="wp-content\themes\prabuddha\images\home_icon.png" alt="img"></a></div>
+                    </div> 
+                </div>
+                <div class="header_bottom">
+                    <div style="width:100%; height:auto; float:left; background:url(wp-content/themes/prabuddha/images/top_nav_bg.jpg) repeat-x;">
+                        <div id="menu-container" class="mymenu">
+                            <div class="menu-header_menu-container"><ul id="nav"><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="index.htm">Home</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="index-1.htm?page_id=2">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-359"><a href="index-1.htm?page_id=2#power">Prabuddha Power</a></li>
+	<li id="menu-item-360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-360"><a href="index-1.htm?page_id=2#techno">Prabuddha Techno</a></li>
+	<li id="menu-item-361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-361"><a href="index-1.htm?page_id=2#aboutus">About Us</a></li>
+	<li id="menu-item-362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-362"><a href="index-1.htm?page_id=2#coreteam">Core Team</a></li>
+	<li id="menu-item-363" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-363"><a href="index-1.htm?page_id=2#advisors">Advisors</a></li>
+</ul>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="index-2.htm?page_id=10">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-419" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419"><a href="index-2.htm?page_id=10#CONSULTANCY">Consultancy</a></li>
+	<li id="menu-item-420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420"><a href="index-2.htm?page_id=10#EPCServices">EPC Services</a></li>
+	<li id="menu-item-421" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-421"><a href="index-2.htm?page_id=10#PROJECT_MANAGEMENT">Project Management</a></li>
+</ul>
+</li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="index-3.htm?page_id=12">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-448"><a href="index-3.htm?page_id=12#TELECOM">Telecom</a></li>
+	<li id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a href="index-3.htm?page_id=12#COMMERCIAL">Commercial and Industrial</a></li>
+	<li id="menu-item-450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450"><a href="index-3.htm?page_id=12#RURAL_OFF">Rural/ Domestic Community</a></li>
+</ul>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="index-4.htm?page_id=14">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-414" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-414"><a href="index-4.htm?page_id=14#solar_street">Solar Street Lighting</a></li>
+	<li id="menu-item-415" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-415"><a href="index-4.htm?page_id=14#solar_lanterns">Solar Lanterns</a></li>
+	<li id="menu-item-416" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-416"><a href="index-4.htm?page_id=14#solar_home">Solar Home Lighting</a></li>
+	<li id="menu-item-417" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-417"><a href="index-4.htm?page_id=14#roof_top">Roof Top Power-Packs</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="index-5.htm?page_id=18">Business Opportunities</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="index-6.htm?page_id=16">Knowledge Centre</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="index-7.htm?page_id=20">Contact Us</a></li>
+</ul></div>            
+                        </div>           
+                    </div>      
+                    <div class="banner_nav">
+                        <div class="banner_nav_left"> 
+
+                            <div class="breadcrumbs">
+                                <!-- Breadcrumb NavXT 4.2.0 -->
+<ul><li><a title="Go to Home." href="index.htm" class="site-home">Home</a></li><li class="seprator"> &gt; </li><li><a title="Go to Contact Us Google Map." href="index-11.htm?page_id=396" class="post-page current-item">Contact Us Google Map</a></li>                            </ul></div>            	
+                        </div>
+                        <div class="banner_nav_right">
+                        </div>
+                    </div>
+					<!-- Slider start  -->
+						<div class="slideshow-container">
+						<div class="mySlides fade" style="display:block">
+						  <img src="banner\BANNER_1.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+						  <img src="banner\BANNER_2.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+						  <img src="banner\BANNER_3.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+						  <img src="banner\BANNER_4.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+						  <img src="banner\BANNER_5.jpg" style="width:100%">
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						</div>					
+					<!-- Slider ends  -->
+                </div>
+            </div> 
+		<div id="container">
+			<div id="content" role="main">
+
+			
+
+<div class="aboutbody">
+<div class="aboutbody_box" style="">
+		<object id='for-mapid-2142ed07ce805f0433d100b78e302957' name='for-mapid-2142ed07ce805f0433d100b78e302957' class='cgmp-data-placeholder cgmp-json-string-placeholder'><param id='json-string-for-mapid-2142ed07ce805f0433d100b78e302957' name='json-string-for-mapid-2142ed07ce805f0433d100b78e302957' value='{"zoom":"12","width":"400","height":"300","maptype":"roadmap","maptypecontrol":"true","pancontrol":"true","zoomcontrol":"true","scalecontrol":"true","streetviewcontrol":"true","scrollwheelcontrol":"false","showbike":"false","bubbleautopan":"true","showtraffic":"false","showpanoramio":"false","kml":"","directionhint":"false","mapalign":"center","panoramiouid":"","addmarkermashup":"false","language":"default","poweredby":"false","draggable":"true","tiltfourtyfive":"false","addmarkermashupbubble":"false","id":"2142ed07ce805f0433d100b78e302957","markerlist":"B-72, Alkapuri, Near Habibganj Naka Bhopal (M.P.){}1-default.png{}\u2013 462024"}'></object> 
+<div align="center"><div class="google-map-placeholder" id="2142ed07ce805f0433d100b78e302957" style="width: 400px; height: 300px;"><div align="center" style="background:url('wp-content/plugins/comprehensive-google-map-plugin/assets/css/images/loading.gif') no-repeat 0 0 transparent !important; height:100px; width:100px; position: relative; top: 100px !important; "></div></div>
+			
+			<div class="direction-controls-placeholder" id="direction-controls-placeholder-2142ed07ce805f0433d100b78e302957" style="background: white; width: 400px; margin-top: 5px; border: 1px solid #EBEBEB; display: none; padding: 18px 0 9px 0;">
+			<div class="d_close-wrapper">
+				<a id="d_close" href="javascript:void(0)"> 
+					<img src="wp-content\plugins\comprehensive-google-map-plugin\assets\css\images\transparent.png" class="close"> 
+				</a>
+			</div>
+
+			<div style="" id="travel_modes_div" class="dir-tm kd-buttonbar">
+			<a tabindex="3" href="javascript:void(0)" id="dir_d_btn" title="By car" class="kd-button kd-button-left selected" style="margin-right: 20px;"><img class="dir-tm-d" src="wp-content\plugins\comprehensive-google-map-plugin\assets\css\images\transparent.png"></a>
+				 
+					
+			<a tabindex="3" href="javascript:void(0)" id="dir_w_btn" title="Walking" class="kd-button kd-button-right"> <img class="dir-tm-w" src="wp-content\plugins\comprehensive-google-map-plugin\assets\css\images\transparent.png"></a>
+				
+					
+				
+			</div>
+			<div class="dir-clear"></div>
+			<div id="dir_wps">
+				<div id="dir_wp_0" class="dir-wp">
+					<div class="dir-wp-hl">
+						<div id="dir_m_0" class="dir-m" style="cursor: -moz-grab;">
+							<div style="width: 24px; height: 24px; overflow: hidden; position: relative;">
+								<img style="position: absolute; left: 0px; top: -141px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;" src="wp-content\plugins\comprehensive-google-map-plugin\assets\css\images\directions.png">
+							</div>
+						</div>
+						<div class="dir-input">
+							<div class="kd-input-text-wrp">
+								<input type="text" maxlength="2048" tabindex="4" value="" name="a_address" id="a_address" title="Start address" class="wp kd-input-text" autocomplete="off" autocorrect="off">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dir-rev-wrapper">
+					<div id="dir_rev" title="Get reverse directions">
+						<a id="reverse-btn" href="javascript:void(0)" class="kd-button"><img class="dir-reverse" src="wp-content\plugins\comprehensive-google-map-plugin\assets\css\images\transparent.png"></a>
+					</div>
+				</div>
+				<div id="dir_wp_1" class="dir-wp">
+					<div class="dir-wp-hl">
+						<div id="dir_m_1" class="dir-m" style="cursor: -moz-grab;">
+							<div style="width: 24px; height: 24px; overflow: hidden; position: relative;">
+								<img style="position: absolute; left: 0px; top: -72px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;" src="wp-content\plugins\comprehensive-google-map-plugin\assets\css\images\directions.png">
+							</div>
+						</div>
+						<div class="dir-input">
+							<div class="kd-input-text-wrp">
+								<input type="text" maxlength="2048" tabindex="4" value="" name="b_address" id="b_address" title="End address" class="wp kd-input-text" autocomplete="off" autocorrect="off">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="dir_controls">
+				<div class="d_links">
+					<span id="d_options_toggle">
+						<a id="d_options_show" class="no-wrap" href="javascript:void(0)" style="display: none !important;">Show options</a> 
+						<a id="d_options_hide" class="no-wrap" href="javascript:void(0)" style="display: none !important;">Hide options</a>
+					   	<b><span style="color: blue">Additional options</span></b>
+					</span>
+				</div>
+				<div id="d_options" style="background-color: #ddd; margin-bottom: 3px; text-align: left; padding: 3px; float: left; width:100%;min-width: 140px;">
+					<div style="float:left;width: 120px;margin-right:5px; margin-left:5px;"><input type="checkbox" tabindex="5" name="avoid_hway" id="avoid_hway"><label for="avoid_hway" style="padding-left: 5px;">Avoid highways</label></div>
+					<div style="float:left;width: 93px;margin-right:5px; margin-left:5px;"><input type="checkbox" tabindex="5" name="avoid_tolls" id="avoid_tolls"><label for="avoid_tolls" style="padding-left: 5px;">Avoid tolls</label></div>
+					<div style="float:left;width: 52px;margin-right:5px; margin-left:5px;"><input type="radio" name="travel_mode" id="radio_km"><label for="radio_km" style="padding-left: 5px;">KM</label></div>
+					<div style="float:left;width: 71px;margin-right:5px; margin-left:5px;"><input type="radio" name="travel_mode" id="radio_miles" checked="checked"><label for="radio_miles" style="padding-left: 5px;">Miles</label></div>
+				</div>
+				
+				<div class="dir-sub-cntn">
+					<button tabindex="6" name="btnG" type="submit" id="d_sub" class="kd-button kd-button-submit">Get Directions</button><button tabindex="6" name="btnG" type="button" style="display: none;" id="print_sub" class="kd-button kd-button-submit">Print Directions</button>
+				</div>
+				<div class="dir-clear"></div>
+			</div>
+		</div>
+		<div id="rendered-directions-placeholder-2142ed07ce805f0433d100b78e302957" style="display: none; border: 1px solid #ddd; width: 400px; margin-top: 10px; direction: ltr; overflow: auto; height: 180px; padding: 5px;" class="rendered-directions-placeholder"></div>
+	</div>
+
+</div>
+</div>
+
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+
+<div class="footer">
+    <div class="footer_l">All rights reserved to Prabuddha Techno Ventures</div>
+    <div class="footer_r">
+        <div class="menu-footer_menu-container"><ul><li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="index.htm">Home</a></li>
+<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="index-8.htm?page_id=135">Sitemap</a></li>
+<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="index-2.htm?page_id=10">Services</a></li>
+<li id="menu-item-139" class="br_none menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="index-7.htm?page_id=20">Contact Us</a></li>
+</ul></div>    </div>
+</div>
+</div>
+
+
+
+<object id='global-data-placeholder' style='background-color:transparent !important;border:none !important;height:0 !important;left:10000000px !important;line-height:0 !important;margin:0 !important;outline:medium none !important;padding:0 !important;position:absolute !important;top:100000px !important;width:0 !important;z-index:9999786 !important'>
+    <param id='sep' name='sep' value='{}'>
+    <param id='cssHref' name='cssHref' value='./wp-content/plugins/comprehensive-google-map-plugin/style.css?ver=7.0.31'>
+    <param id='language' name='language' value='en'>
+    <param id='customMarkersUri' name='customMarkersUri' value='./wp-content/plugins/comprehensive-google-map-plugin/assets/css/images/markers/'>
+    <param id='errors' name='errors' value='{ "oldJquery" : "ATTENTION! (by Comprehensive Google Map Plugin)\n\nYour blog/site theme or one of your plugins uses jQuery javascript library which is older than the version 1.3.0.\nThe Comprehensive Google Map plugin will not work with such outdated jQuery version.\n\nThe minimum jQuery requirement for Comprehensive Google Map plugin is version 1.3.0. Apologies for the inconvenience..",
+  "badAddresses" : "<b>ATTENTION</b>! (by Comprehensive Google Map Plugin)<br /><br />Google found the following address(es) as NON-geographic and could not find them:<br /><br />[REPLACE]<br />Consider revising the address(es). Did you make a mistake when creating marker locations or did not provide a full geo-address? Alternatively use Google web to validate the address(es)",
+  "kml" : "<b>ATTENTION</b>! (by Comprehensive Google Map Plugin)<br /><br />Dear blog/website owner,<br />Google returned the following error when trying to load KML file:<br /><br />[MSG] ([STATUS])",
+  "kmlDocInvalid" : "The KML file is not a valid KML, KMZ or GeoRSS document.",
+  "kmlFetchError" : "The KML file could not be fetched.",
+  "kmlLimits" : "The KML file exceeds the feature limits of KmlLayer.",
+  "kmlNotFound" : "The KML file could not be found. Most likely it is an invalid URL, or the document is not publicly available.",
+  "kmlRequestInvalid" : "The KmlLayer is invalid.",
+  "kmlTimedOut" : "The KML file could not be loaded within a reasonable amount of time.",
+  "kmlTooLarge" : "The KML file exceeds the file size limits of KmlLayer.",
+  "kmlUnknown" : "The KML file failed to load for an unknown reason.",
+  "msgApiV2" : "<b>ATTENTION</b>! (by Comprehensive Google Map Plugin)<br /><br />Dear blog/website owner,<br />It looks like your webpage has reference to the older Google API v2, in addition to the API v3 used by Comprehensive Google Map! An example of plugin using the older API v2, can be jquery.gmap plugin.<br /><br />Please disable conflicting plugin(s). In the meanwhile, map generation is aborted!",
+  "msgMissingMarkers" : "<b>ATTENTION</b>! (by Comprehensive Google Map Plugin)<br /><br />Dear blog/website owner,<br />You did not specify any marker locations for the Google map! Please check the following when adding marker locations:<br /><b>[a]</b> In the shortcode builder, did you add location(s) and clicked the Add button before generating shortcode?<br /><b>[b]</b> In the widget, did you add location(s) and clicked Add button before clicking Save?<br /><br />Please revisit and reconfigure your widget or shortcode configuration. The map requires at least one marker location to be added..",
+  "msgNoGoogle" : "<b>ATTENTION</b>!(by Comprehensive Google Map Plugin)<br /><br />Dear blog/website owner,<br />It looks like Google map API could not be reached. Map generation was aborted!<br /><br />Please check that Google API script was loaded in the HTML source of your web page"}
+'>
+    <param id='translations' name='translations' value='{ "address" : "Address",
+  "streetView" : "Street View",
+  "directions" : "Directions",
+  "toHere" : "To here",
+  "fromHere" : "From here"}
+'>
+</object> 
+<script type='text/javascript' src='charts\loader.js?ver=3.4.2'></script>
+<script type='text/javascript' src='wp-content\plugins\comprehensive-google-map-plugin\assets\js\cgmp.framework.js?ver=7.0.31'></script>
+<script type='text/javascript' src='wp-content\plugins\contact-form-7\includes\js\jquery.form.min.js?ver=3.18'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/localhost\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content\plugins\contact-form-7\includes\js\scripts.js?ver=3.3.1'></script>
+</body>
+</html>

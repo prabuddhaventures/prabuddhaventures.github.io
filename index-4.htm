@@ -1,0 +1,557 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Products | Prabuddha</title>
+        <link rel="profile" href="xfn\11.html">
+        <link rel="stylesheet" type="text/css" media="all" href="wp-content\themes\prabuddha\style.css">
+        <link href="wp-content\themes\prabuddha\css\style.css" rel="stylesheet" type="text/css">
+        <link rel="pingback" href="xmlrpc.txt">
+
+        <link rel="stylesheet" href="./wp-content/themes/prabuddha/css/themes/light/light.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./wp-content/themes/prabuddha/css/themes/dark/dark.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="wp-content\themes\prabuddha\css\themes\bar\bar.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="wp-content\themes\prabuddha\css\nivo-slider.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./wp-content/themes/prabuddha/css/css/style_banner.css" type="text/css" media="screen">
+
+        <script type="text/javascript" src="ajax\libs\jquery\1.4.1\jquery.min.js"></script>
+        <script type="text/javascript" src="wp-content\themes\prabuddha\js\script.js"></script>    
+
+        <script type="text/javascript" src="wp-content\themes\prabuddha\js\jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="wp-content\themes\prabuddha\js\jquery.nivo.slider.js"></script>
+
+
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider();
+            
+            });
+        
+            function imageClicked(img) {
+                document.forms["searchform"].submit();
+            }
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {	
+	
+                $('#nav li').hover(
+                function () {
+                    //show its submenu
+                    $('ul', this).slideDown(100);
+
+                }, 
+                function () {
+                    //hide its submenu
+                    $('ul', this).slideUp(100);			
+                }
+            );
+	
+            });
+        </script>
+
+<style>
+/* * {box-sizing: border-box}  
+body {font-family: Verdana, sans-serif; margin:0}  **/
+img {vertical-align: middle;}
+.mySlides {display: none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function showSlidesStart(){
+	setTimeout(showSlidesStart,3000)
+	plusSlides(1);	
+}
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+        <link rel="alternate" type="application/rss+xml" title="Prabuddha &raquo; Feed" href="index.xml?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="Prabuddha &raquo; Comments Feed" href="./?feed=comments-rss2">
+<link rel="alternate" type="application/rss+xml" title="Prabuddha &raquo; Products Comments Feed" href="index-5.xml?feed=rss2&#038;page_id=14">
+<link rel='stylesheet' id='contact-form-7-css' href='wp-content\plugins\contact-form-7\includes\css\styles.css?ver=3.3.1' type='text/css' media='all'>
+<link rel='stylesheet' id='page-list-style-css' href='wp-content\plugins\page-list\css\page-list.css?ver=4.0' type='text/css' media='all'>
+<script type='text/javascript' src='wp-includes\js\comment-reply.js?ver=3.4.2'></script>
+<script type='text/javascript' src='wp-includes\js\jquery\jquery.js?ver=1.7.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.xml?rsd">
+<link rel='prev' title='Solutions' href='index-3.htm?page_id=12'>
+<link rel='next' title='Knowledge Centre' href='index-6.htm?page_id=16'>
+<meta name="generator" content="WordPress 3.4.2">
+<link rel='canonical' href='index-4.htm?page_id=14'>
+    </head>
+    <body onload="setTimeout(showSlidesStart,5000);">
+        <div class="main">
+            <div class="header">
+                <div class="header_top">
+                    <div class="logo"><a href="index.htm">
+                            <img src="wp-content\themes\prabuddha\images\logo.png" title="Home" alt="img"></a></div>
+                    <div class="header_top_right">
+                    <span style=" float: right; margin-right: 5px; margin-top: -39px;">
+			                          
+                    </span>             
+                        <div class="in_put"> 
+                            <form action="./" name="searchform" id="searchform" method="get">
+                                <input type="text" name="s" class="header_input">
+                                <div class="search_icon">
+                                    <input type="image" src="wp-content\themes\prabuddha\images\search_icon.png" name="submit" onclick="imageClicked(this)">
+
+                                </div>                                  
+                            </form> 
+
+                        </div>
+
+                        <div class="home_icon"><a href="index.htm"><img src="wp-content\themes\prabuddha\images\home_icon.png" alt="img"></a></div>
+                    </div> 
+                </div>
+                <div class="header_bottom">
+                    <div style="width:100%; height:auto; float:left; background:url(wp-content/themes/prabuddha/images/top_nav_bg.jpg) repeat-x;">
+                        <div id="menu-container" class="mymenu">
+                            <div class="menu-header_menu-container"><ul id="nav"><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="index.htm">Home</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="index-1.htm?page_id=2">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-359"><a href="index-1.htm?page_id=2#power">Prabuddha Power</a></li>
+	<li id="menu-item-360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-360"><a href="index-1.htm?page_id=2#techno">Prabuddha Techno</a></li>
+	<li id="menu-item-361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-361"><a href="index-1.htm?page_id=2#aboutus">About Us</a></li>
+	<li id="menu-item-362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-362"><a href="index-1.htm?page_id=2#coreteam">Core Team</a></li>
+	<li id="menu-item-363" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-363"><a href="index-1.htm?page_id=2#advisors">Advisors</a></li>
+</ul>
+</li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="index-2.htm?page_id=10">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-419" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-419"><a href="index-2.htm?page_id=10#CONSULTANCY">Consultancy</a></li>
+	<li id="menu-item-420" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-420"><a href="index-2.htm?page_id=10#EPCServices">EPC Services</a></li>
+	<li id="menu-item-421" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-421"><a href="index-2.htm?page_id=10#PROJECT_MANAGEMENT">Project Management</a></li>
+</ul>
+</li>
+<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="index-3.htm?page_id=12">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-448"><a href="index-3.htm?page_id=12#TELECOM">Telecom</a></li>
+	<li id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-449"><a href="index-3.htm?page_id=12#COMMERCIAL">Commercial and Industrial</a></li>
+	<li id="menu-item-450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-450"><a href="index-3.htm?page_id=12#RURAL_OFF">Rural/ Domestic Community</a></li>
+</ul>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-25"><a href="index-4.htm?page_id=14">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-414" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-414"><a href="index-4.htm?page_id=14#solar_street">Solar Street Lighting</a></li>
+	<li id="menu-item-415" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-415"><a href="index-4.htm?page_id=14#solar_lanterns">Solar Lanterns</a></li>
+	<li id="menu-item-416" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-416"><a href="index-4.htm?page_id=14#solar_home">Solar Home Lighting</a></li>
+	<li id="menu-item-417" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-417"><a href="index-4.htm?page_id=14#roof_top">Roof Top Power-Packs</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="index-5.htm?page_id=18">Business Opportunities</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="index-6.htm?page_id=16">Knowledge Centre</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="index-7.htm?page_id=20">Contact Us</a></li>
+</ul></div>            
+                        </div>           
+                    </div>      
+                    <div class="banner_nav">
+                        <div class="banner_nav_left"> 
+
+                            <div class="breadcrumbs">
+                                <!-- Breadcrumb NavXT 4.2.0 -->
+<ul><li><a title="Go to Home." href="index.htm" class="site-home">Home</a></li><li class="seprator"> &gt; </li><li><a title="Go to Products." href="index-4.htm?page_id=14" class="post-page current-item">Products</a></li>                            </ul></div>            	
+                        </div>
+                        <div class="banner_nav_right">
+                        </div>
+                    </div>
+					<!-- Slider start  -->
+						<div class="slideshow-container">
+						<div class="mySlides fade" style="display:block">
+						  <img src="banner\BANNER_1.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+						  <img src="banner\BANNER_2.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+						  <img src="banner\BANNER_3.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+						  <img src="banner\BANNER_4.jpg" style="width:100%">
+						</div>
+						<div class="mySlides fade">
+						  <img src="banner\BANNER_5.jpg" style="width:100%">
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						</div>					
+					<!-- Slider ends  -->
+                </div>
+            </div> 
+		<div id="container">
+			<div id="content" role="main">
+
+			
+
+<div class="aboutbody">
+<div class="aboutbody_box" style="">
+		<div style="float:left; width:500px;">
+<div class="aboutbody_box" id="solar_street" style="width:500px; margin-bottom:0px; padding-left:0;">
+<div class="about_blok" style="width:92%;">
+<div class="about_blok_inside">
+<h2>SOLAR STREET LIGHTING SYSTEMS</h2>
+<p>                  Solar street Lighting offers a highly reliable solution which has high life system with a good visual quality.<br>
+Prabuddha Solar Street Lighting system includes Solar Photovoltaic module,<br>
+Long lasting deep duty cycle battery, pole , mounting structures and luminary with built<br>
+ in LED driver and efficient solar charge controller for battery overcharge/deep discharge  protection<br>
+and reverse polarity circuit damage protection.
+                   </p>
+<p>
+                   <span class="aboutbody_head_orange">Applications :<br>
+</span><br>
+                  <span style="width:100%; height:auto; padding-bottom:3px; padding-top:3px; float:left;">  Area Lighting,  Perimeter Security Lighting  and  Parking Lots of industrial, institutions and commercial areas,    Parks, Private Roads , Jogging and Bike Path<br>
+</span></p>
+<div style="width:100%; height:auto; float:left; color: #58585B;">
+<div style="float:left; width:60%; height:auto; margin-right:10px;">
+<p><span style="width:100%; height:auto; padding-bottom:3px; padding-top:3px; float:left; border-bottom:1px solid #F36F21;  border-top:1px solid #F36F21;">Bus stops , rural roads, Remote Areas ,  Wildlife Areas , plantation areas<br>
+</span></p>
+<p><span style="width:100%; height:auto; padding-bottom:3px; padding-top:3px; float:left; border-bottom:1px solid #F36F21">Roadways ,  Driveways, streets<br>
+</span></p>
+<p><span style="width:100%; height:auto; padding-bottom:3px; padding-top:3px; float:left; border-bottom:1px solid #F36F21">  Paths, Ramps in resorts, office complexes etc.</span></p>
+<p></p>
+<p><span style="width:100%; height:auto; padding-bottom:3px; padding-top:3px; float:left; border-bottom:1px solid #F36F21">    Fences , Gates, Docks , camp sites and beaches</span></p>
+<p></p>
+</div>
+<div style="float:left; width:30%; height:auto;">
+<img src="wp-content\uploads\2012\10\product_img_1.png" height="135">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="aboutbody_box" style="width:500px; padding-top:0px; left:-40px; position:relative; margin-left:0px; padding-left:0px;">
+                 <img src="wp-content/uploads/2012/10/product_img_21.png"></div>
+</div>
+<div style="float:right; width:480px;">
+<div class="aboutbody_box" style="width:480px; margin-left:0px; padding-left:0px; float:right; padding-top:10px;">
+<div style="float:left; width:322px; margin-left:16px;">
+<div style="float:left; width:158px;"> <img src="wp-content\uploads\2012\10\img1_new.jpg"> </div>
+<div style="float:right; width:158px;"> <img src="wp-content\uploads\2012\10\img2_new.jpg"> </div>
+</div></div>
+<div class="aboutbody_box" style="width:450px; margin-left:0px; padding-left:15px; float:left; padding-top:10px;">
+<p>
+                   <strong style="color:#F36F21; float:left;">Product Features/Benefits :<br>
+</strong><br>
+<span style="line-height:130%;"></span></p>
+<p><span class="bull">&bull; &nbsp;</span>Highly reliable stand-alone system<br>
+<span class="bull">&bull;&nbsp; </span>Eliminate need for trenching and laying of cable<br>
+<span class="bull">&bull; </span>  Modular design: easy to assemble and maintenance, also saves &nbsp;&nbsp;&nbsp;freight cost and installation cost<br>
+<br>
+<span class="bull">&bull; </span>All weather rugged pole with structure designed to operate at high  &nbsp;&nbsp;&nbsp;wind velocity<br>
+<span class="bull">&bull;&nbsp; </span>Maintenance free </p>
+<p></p>
+<p><span class="bull">&bull;&nbsp; </span>  Location flexibility<br>
+</p>
+<p></p>
+<p><span class="bull">&bull;&nbsp; </span>No utility bills and  Unaffected by power Outages and Environmentally &nbsp;&nbsp;&nbsp;friendly</p>
+<p>
+</p>
+</div>
+</div>
+<p><!-----------------------------------------------------------------></p>
+<p>     <!-------------------END SOLAR STREET LIGHTING SYSTEMS---------------->           </p>
+<p><!----------------------------------------------------------------->                </p>
+<p><!-----------------------------------------------------------------></p>
+<p>     <!-------------------ESOLAR LANTERNS---------------->           </p>
+<p><!----------------------------------------------------------------->                </p>
+<div class="about_blok" id="solar_lanterns" style="width:92%; margin-left:0px;padding-left:0">
+<div class="about_blok_inside" style="width:70%;">
+<div style="float:left;">
+<h2>SOLAR LANTERNS</h2>
+<p>                 Our Solar Powered Lantern is a portable light source like a traditional lantern which gives omni-directional pure white light. This solar powered lantern consists of a solar photovoltaic module, sealed maintenance free (SMF) lead acid battery, charge controller and DC-AC inverter for lighting the Compact Fluorescent Lamp (CF Lamp).  We have two different grades suitable for two Prabuddha Jyot &#8211; Res<br>
+Prabuddha Jyot &#8211; Mil</p>
+<p>The solar powered lantern manufactured by us is highly efficient. Its two-step charge controller protects battery from over charging and deep discharging. Our solar powered lantern is non-polluting and in exhaust energy from the Sun. Our superbly efficient solar powered lantern has positioned us in midst of innovative solar lantern manufacturers and portable solar lantern suppliers. </p>
+</div>
+</div>
+<div style="float:left; margin-left:20px;">
+<p>                   <img src="wp-content\uploads\2012\10\solor_lamp.png">
+                   </p></div>
+</div>
+<div class="aboutbody_box" style=" margin-left:0; padding-left:0;">
+<div class="about_blok" style="width:315px; height:150px; background:none;">
+<div class="about_blok_inside" style="width:90%; border:none;<br />
+                    "><br>
+                   <span class="aboutbody_head_orange">Benefits<br>
+</span>
+<ul>
+<li>Safe and easy to operate </li>
+<li>Excellent protections and indications </li>
+<li>Rugged and attractive body made of ABS plastic</li>
+</ul></div>
+</div>
+<div class="about_blok" style="width:315px; height:150px; background:none;">
+<div class="about_blok_inside" style="width:90%; border:none;">
+                   <span class="aboutbody_head_orange">Features<br>
+</span>
+<ul>
+<li>Environment Friendly </li>
+<li>Portable </li>
+<li>Rugged and Dependable </li>
+<li>Silent Operation </li>
+<li>Light output ____ lumens i.e. equivalent to a  _____watts incandescent lamp </li>
+</ul></div>
+</div>
+<div class="about_blok" style="width:348px; height:150px;  background:none; ">
+<div class="about_blok_inside" style="width:100%; border:none;">
+                   <span class="aboutbody_head_orange">Applications
+<p></p></span>
+<ul style="font-weight:normal;font-size: 14px;">
+<li>Emergency Light Source  </li>
+<li>Light Source in remote un-electrified villages
+</li>
+<li>Picnic Sports and Farm Houses </li>
+<li>Military Outposts</li>
+<li>Light sources for the field personnel of Agriculture extension, Adult Education and other Mass Communication Programmers </li>
+<li>Garden Lighting </li>
+</ul></div>
+</div>
+</div>
+<div class="about_blok" id="solar_home" style="width:95%; margin-left:0px;">
+<div class="about_blok_inside" style="width:60%;">
+<div style="float:left;">
+<h2>SOLAR HOME LIGHTING SYSTEMS</h2>
+<p>                 Our Solar Powered Lantern is a portable light source like a traditional lantern which gives omni-directional pure white light. This solar powered lantern consists of a solar photovoltaic module, sealed maintenance free (SMF) lead acid battery, charge controller and DC-AC inverter for lighting the Compact Fluorescent Lamp (CF Lamp).  We have two different grades suitable for two Prabuddha Jyot &#8211; Res<br>
+Prabuddha Jyot &#8211; Mil</p>
+<p>The solar powered lantern manufactured by us is highly efficient. Its two-step charge controller protects battery from over charging and deep discharging. Our solar powered lantern is non-polluting and in exhaust energy from the Sun. Our superbly efficient solar powered lantern has positioned us in midst of innovative solar lantern manufacturers and portable solar lantern suppliers. </p>
+<div style="float:left;">
+<p>               <span class="aboutbody_head_orange">Features</span>
+<ul>
+<li>Safe &#038; easy to install</li>
+<li>Free from noise, smoke and pollution</li>
+<li>Requires very little attention</li>
+<li>Possible to expand the system in future</li>
+<li>Available in different configurations</li>
+<li>Elegant and efficient luminaries</li>
+<li>Provisions for operating extra loads</li>
+<li>Highly advanced charge controller</li>
+<li>Longer battery life ensured</li>
+<li>Adequate protections and indications</li>
+</ul>
+</div>
+<div style="float:left; margin-left:30px;">
+ <span class="aboutbody_head_orange">Benefits</span>
+<ul>
+<li>Silent operation</li>
+<li>High reliability</li>
+<li>Low maintenance</li>
+<li>No fuel dependence</li>
+<li>Modular design allows system expansion</li>
+<li>Easy installation</li>
+<li>Clean energy</li>
+<li>Power for any location</li>
+</ul>
+</div></div>
+</div>
+<div style="float:left; margin-left:10px;">
+<p>                   <img src="wp-content\uploads\2012\10\solor_lamp_2.png">
+                   </p></div>
+</div>
+<p><!-----------------------------------------------------------------></p>
+<p>     <!-------------------END ESOLAR LANTERNS---------------->           </p>
+<p><!----------------------------------------------------------------->                  </p>
+<p><!-----------------------------------------------------------------></p>
+<p>     <!-------------------ROOF TOP / DISTRIBUTED PV---------------->           </p>
+<p><!----------------------------------------------------------------->                </p>
+<div class="about_blok" id="roof_top" style="width:95%; margin-left:0px; margin-top:10px; margin-bottom:30px;">
+<div class="about_blok_inside" style="width:92%;">
+<h2>Roof Top Power-Packs</h2>
+<div style="float:left;">
+<div style="float:left; margin-left:0px; width:auto;">
+<p>                   <img src="wp-content\uploads\2012\10\solor_lamp_3.png">
+                   </p></div>
+<div style="float:left; width:40%; margin-left:20px; ">
+<p>                 Prabuddha provides design, engineering, procurement and construction of Roof Top Solar PV Power Plants &#8211; from few KW to MW. We have the capability to do pre-feasibility studies of Roof Top Solar PV Power Plants &#8211; both Stand-alone and Grid Connected.</p>
+</div>
+</div>
+<div style="float:left;">
+<div style="float:left; margin-top:20px; width:40%;">
+<p>                   <span class="aboutbody_head_orange">Prabuddha&#8217;s photovoltaic solutions find extensive applications for<br>
+</span>
+<ul>
+<li>Individual homes, Corporate offices. Hospitals, Schools, Security Lighting and Shopping complexes
+</li>
+<li>Offshore Oil and other applications
+</li>
+<li>Telecom Towers and Defense applications
+</li>
+<li>Rural water supply -drinking &#038; irrigation
+</li>
+<li>Off-grid power plants and Grid-connected power plants ranging from few kwp to hundreds of MW
+</li>
+<li>Centralized and decentralized rural electrification
+</li>
+</ul>
+</div>
+<div style="float:left; margin-top:20px; width:38%; margin-left:20px;">
+<p>                   <span class="aboutbody_head_orange">Prabuddha&#8217;s photovoltaic solutions find extensive applications for<br>
+</span>
+<ul>
+<li>Individual homes, Corporate offices. Hospitals, Schools, Security Lighting and Shopping complexes
+</li>
+<li>Offshore Oil and other applications
+</li>
+<li>Telecom Towers and Defense applications
+</li>
+<li>Rural water supply -drinking &#038; irrigation
+</li>
+<li>Off-grid power plants and Grid-connected power plants ranging from few kwp to hundreds of MW
+</li>
+<li>Centralized and decentralized rural electrification
+</li>
+</ul>
+</div>
+<div style=" margin-left:10px; margin-top:70px; float:left;">
+<img src="wp-content\uploads\2012\10\solor_lamp_4.png">
+</div>
+</div>
+</div></div>
+<p><!-----------------------------------------------------------------></p>
+<p>     <!-------------------END ROOF TOP / DISTRIBUTED PV---------------->           </p>
+<p><!----------------------------------------------------------------->                </p>
+</div>
+</div>
+
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+
+<div class="footer">
+    <div class="footer_l">All rights reserved to Prabuddha Techno Ventures</div>
+    <div class="footer_r">
+        <div class="menu-footer_menu-container"><ul><li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="index.htm">Home</a></li>
+<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="index-8.htm?page_id=135">Sitemap</a></li>
+<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="index-2.htm?page_id=10">Services</a></li>
+<li id="menu-item-139" class="br_none menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="index-7.htm?page_id=20">Contact Us</a></li>
+</ul></div>    </div>
+</div>
+</div>
+
+
+
+<script type='text/javascript' src='wp-content\plugins\contact-form-7\includes\js\jquery.form.min.js?ver=3.18'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/localhost\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content\plugins\contact-form-7\includes\js\scripts.js?ver=3.3.1'></script>
+</body>
+</html>
